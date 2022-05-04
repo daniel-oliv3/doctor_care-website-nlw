@@ -1,16 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 
-* { 
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .2s linear;
+:root {
+    --primary-color: hsl(170, 100%, 26%);
+    --secondary-color: hsl(210, 11%, 15%);
+    font-size: 62.5%; /*1rem = 10px */
 }
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+h1 {
+    font-size: 3.4rem;
+    color: var(--secondary-color);
+    line-height: 130%;
+}
+
+
+p {
+    font-size: 1.8rem;
+}
+
+button {
+    background: var(--primary-color);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
