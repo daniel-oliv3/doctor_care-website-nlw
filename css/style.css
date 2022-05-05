@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
+* {
+    margin: 0;
+}
 
 :root {
     --primary-color: hsl(170, 100%, 26%);
-    --secondary-color: hsl(210, 11%, 15%);
+    --headline: hsl(210, 11%, 15%);
+    --paragraph: hsl(210, 9%, 31%);
     font-size: 62.5%; /*1rem = 10px */
+}
+
+
+header {
+    width: 37.5rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 body {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
+
+    text-align: center;
 }
 
 h4 {
@@ -20,18 +33,22 @@ h4 {
 
 h1 {
     font-size: 3.4rem;
-    color: var(--secondary-color);
+    color: var(--headline);
     line-height: 130%;
 }
 
 
 p {
     font-size: 1.8rem;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--paragraph);
 }
 
 button {
     background: var(--primary-color);
     color: white;
+    border-radius: 0.8rem;
 }
 
 
