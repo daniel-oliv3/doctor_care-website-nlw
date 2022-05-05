@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -16,6 +17,7 @@ header {
     width: 37.5rem;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 4.1rem;
 }
 
 
@@ -29,12 +31,14 @@ body {
 h4 {
     font-size: 1.4rem;
     color: var(--primary-color);
+    margin-bottom: 1.6rem;
 }
 
 h1 {
     font-size: 3.4rem;
     color: var(--headline);
     line-height: 130%;
+    margin-bottom: 2.4rem;
 }
 
 
@@ -43,12 +47,25 @@ p {
     line-height: 150%;
     font-weight: 400;
     color: var(--paragraph);
+    margin-bottom: 3.2rem;
 }
 
 button {
     background: var(--primary-color);
     color: white;
-    border-radius: 0.8rem;
+    border-radius: 4rem;
+    margin-bottom: 6rem;
+    height: 6.2rem;
+    width: 26.3rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
